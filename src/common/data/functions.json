@@ -10251,12 +10251,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "areaID",
                 "type": "int",
                 "required": true,
@@ -13872,12 +13866,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "tradeRouteID",
                 "type": "int",
                 "required": true,
@@ -14003,12 +13991,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "unitID",
                 "type": "int",
                 "required": true,
@@ -14073,12 +14055,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "xFraction",
                 "type": "float",
                 "required": true,
@@ -14103,12 +14079,6 @@
         "name": "rmFindClosestPointVector",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "a",
                 "type": "vector",
@@ -14309,14 +14279,7 @@
     "hcRandPosition": {
         "name": "hcRandPosition",
         "return_type": "vector",
-        "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns a random position guaranteed to be on the map."
     },
     "hcGetMyUnitID": {
@@ -14348,12 +14311,6 @@
         "name": "hcUnitGetPosition",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "unitID",
                 "type": "int",
@@ -14507,12 +14464,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "groupID",
                 "type": "int",
                 "required": true,
@@ -14531,12 +14482,6 @@
         "name": "hcUnitGetPerformForwardFromGroup",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "groupID",
                 "type": "int",
@@ -15248,12 +15193,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "waypoint",
                 "type": "int",
                 "required": true,
@@ -15266,12 +15205,6 @@
         "name": "hcGetWaypointDir",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "waypoint",
                 "type": "int",
@@ -15388,14 +15321,7 @@
     "aiRandLocation": {
         "name": "aiRandLocation",
         "return_type": "vector",
-        "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns a random location guaranteed to be on the map."
     },
     "aiSet": {
@@ -16290,12 +16216,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "planID",
                 "type": "int",
                 "required": true,
@@ -16308,12 +16228,6 @@
         "name": "aiPlanGetInitialPosition",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "planID",
                 "type": "int",
@@ -16602,12 +16516,6 @@
         "name": "aiPlanGetVariableVector",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "planID",
                 "type": "int",
@@ -17082,12 +16990,6 @@
         "name": "aiPlanGetUserVariableVector",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "planID",
                 "type": "int",
@@ -17824,12 +17726,6 @@
         "name": "aiCommsGetTargetLocation",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "sentenceID",
                 "type": "int",
@@ -18626,12 +18522,6 @@
         "name": "aiGetOpportunityLocation",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "opportunityID",
                 "type": "int",
@@ -19588,14 +19478,7 @@
     "aiGetHCGatherPoint": {
         "name": "aiGetHCGatherPoint",
         "return_type": "vector",
-        "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the HCGP."
     },
     "aiSetHCGatherPoint": {
@@ -20867,12 +20750,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "unitID",
                 "type": "int",
                 "required": true,
@@ -21106,14 +20983,7 @@
     "kbGetMapCenter": {
         "name": "kbGetMapCenter",
         "return_type": "vector",
-        "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the center vector of the map."
     },
     "kbGetMapXSize": {
@@ -21226,12 +21096,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "groupID",
                 "type": "int",
                 "required": true,
@@ -21244,12 +21108,6 @@
         "name": "kbAreaGetCenter",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "areaID",
                 "type": "int",
@@ -21469,12 +21327,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "siteID",
                 "type": "int",
                 "required": true,
@@ -21666,12 +21518,6 @@
         "name": "kbPathGetWaypoint",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "pathID",
                 "type": "int",
@@ -22364,12 +22210,6 @@
         "name": "kbBuildingPlacementGetResultPosition",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "bpID",
                 "type": "int",
@@ -23152,14 +22992,7 @@
     "kbGetTownLocation": {
         "name": "kbGetTownLocation",
         "return_type": "vector",
-        "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the location of the main town."
     },
     "kbGetTownAreaID": {
@@ -23468,12 +23301,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "playerID",
                 "type": "int",
                 "required": true,
@@ -23492,12 +23319,6 @@
         "name": "kbBaseGetLastKnownDamageLocation",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "a",
                 "type": "int",
@@ -23556,12 +23377,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "playerID",
                 "type": "int",
                 "required": true,
@@ -23580,12 +23395,6 @@
         "name": "kbBaseGetBackVector",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "playerID",
                 "type": "int",
@@ -23877,12 +23686,6 @@
         "return_type": "vector",
         "params": [
             {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
-            {
                 "name": "playerID",
                 "type": "int",
                 "required": true,
@@ -24121,12 +23924,6 @@
         "name": "kbGetBlockPosition",
         "return_type": "vector",
         "params": [
-            {
-                "name": "result",
-                "type": "vector",
-                "required": true,
-                "desc": "No description yet."
-            },
             {
                 "name": "blockName",
                 "type": "string",
