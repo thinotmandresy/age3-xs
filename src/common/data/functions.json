@@ -1090,13 +1090,7 @@
     "console": {
         "name": "console",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles the state of the console dialog"
     },
     "pause": {
@@ -1134,13 +1128,7 @@
     "unpauseNoChecks": {
         "name": "unpauseNoChecks",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "forces the game to unpause"
     },
     "exit": {
@@ -1159,13 +1147,7 @@
     "screenshot": {
         "name": "screenshot",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "take a screen shot"
     },
     "hackscreenshot": {
@@ -1228,49 +1210,25 @@
     "undo": {
         "name": "undo",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "undoes the last editing operation."
     },
     "redo": {
         "name": "redo",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Re-does the last undone operation."
     },
     "alignResources": {
         "name": "alignResources",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "realigns all resources in the world to tile boundaries"
     },
     "alignSelectedUnits": {
         "name": "alignSelectedUnits",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "realigns all selected units to tile boundaries"
     },
     "resourceMarket": {
@@ -1365,37 +1323,19 @@
     "unitSetStanceAggressive": {
         "name": "unitSetStanceAggressive",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sets the unit stance for all selected units to aggressive."
     },
     "unitSetStanceDefensive": {
         "name": "unitSetStanceDefensive",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sets the unit stance for all selected units to defensive."
     },
     "unitSetStancePassive": {
         "name": "unitSetStancePassive",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sets the unit stance for all selected units to passive."
     },
     "unitSetTactic": {
@@ -1414,13 +1354,7 @@
     "unitToggleStealth": {
         "name": "unitToggleStealth",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles stealth mode for this unit."
     },
     "squadMode": {
@@ -1477,37 +1411,19 @@
     "unitTownBell": {
         "name": "unitTownBell",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Issues a town bell for the selected unit(s)."
     },
     "unitReturnToWork": {
         "name": "unitReturnToWork",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Issues a return to work for the selected unit(s)."
     },
     "obscuredUnitToggle": {
         "name": "obscuredUnitToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles between different ways obscured units are shown."
     },
     "configDump": {
@@ -1802,25 +1718,13 @@
     "saveCurrentHomeCityCamera": {
         "name": "saveCurrentHomeCityCamera",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "save camera to file."
     },
     "saveCurrentHomeCityWidescreenCamera": {
         "name": "saveCurrentHomeCityWidescreenCamera",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "save widescreen camera to file."
     },
     "loadCamera": {
@@ -1839,25 +1743,13 @@
     "restart": {
         "name": "restart",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "re-launch current scenario."
     },
     "terrainFilter": {
         "name": "terrainFilter",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "filters the entire terrain."
     },
     "terrainFilterArea": {
@@ -2054,13 +1946,7 @@
     "cameraNice": {
         "name": "cameraNice",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "puts the camera in a reasonable orientation."
     },
     "cameraForward": {
@@ -2326,13 +2212,7 @@
     "cameraDump": {
         "name": "cameraDump",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "debug command to spew info about the current state of the game camera"
     },
     "trackLoad": {
@@ -2364,73 +2244,37 @@
     "trackClear": {
         "name": "trackClear",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "clears all tracks."
     },
     "trackStepForward": {
         "name": "trackStepForward",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "steps the current camera track 1 step forward."
     },
     "trackStepBackward": {
         "name": "trackStepBackward",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "steps the current camera track 1 step backward."
     },
     "trackToggleShow": {
         "name": "trackToggleShow",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles rendering of the camera track on and off."
     },
     "trackAddWaypoint": {
         "name": "trackAddWaypoint",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "adds the camera's current position and orientation to the current camera track."
     },
     "trackEditWaypoint": {
         "name": "trackEditWaypoint",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "edits the currently selected camera track."
     },
     "trackSetSelectedWaypoint": {
@@ -2462,37 +2306,19 @@
     "trackRemoveWaypoint": {
         "name": "trackRemoveWaypoint",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "removes the most recently added track waypoint from the current camera track."
     },
     "trackInsert": {
         "name": "trackInsert",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "adds a new camera track."
     },
     "trackRemove": {
         "name": "trackRemove",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "removes selected track."
     },
     "trackPlay": {
@@ -2517,25 +2343,13 @@
     "trackPause": {
         "name": "trackPause",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "pauses the current camera track."
     },
     "trackStop": {
         "name": "trackStop",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "stops the current camera track."
     },
     "trackAdvance": {
@@ -2580,13 +2394,7 @@
     "toggleShadows": {
         "name": "toggleShadows",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggle shadows on/off"
     },
     "setShadowQuality": {
@@ -2898,25 +2706,13 @@
     "ambientGetColor": {
         "name": "ambientGetColor",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Get ambient color"
     },
     "resetAmbientColor": {
         "name": "resetAmbientColor",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "reset the sun color to full"
     },
     "ambientColor2": {
@@ -3009,25 +2805,13 @@
     "sunGetColor": {
         "name": "sunGetColor",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Get sun color"
     },
     "resetSunColor": {
         "name": "resetSunColor",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "reset the sun color to full"
     },
     "fakeSunParams": {
@@ -3267,13 +3051,7 @@
     "unitPlayerDefakify": {
         "name": "unitPlayerDefakify",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "sets the selected units to stop using a fake player."
     },
     "setToneMapParams": {
@@ -3583,13 +3361,7 @@
     "musicStop": {
         "name": "musicStop",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "stop playing music"
     },
     "musicSetVolume": {
@@ -3627,13 +3399,7 @@
     "musicToggleBattleMode": {
         "name": "musicToggleBattleMode",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles between battle mode and normal mode"
     },
     "displayType": {
@@ -3717,13 +3483,7 @@
     "uiEnterGameMenuModeIfNotResigned": {
         "name": "uiEnterGameMenuModeIfNotResigned",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Wrapper that enters GameMenu mode if the player isn't resigned."
     },
     "modeToggleBetweenIfNotMP": {
@@ -3825,13 +3585,7 @@
     "resetDefaultPlayerColors": {
         "name": "resetDefaultPlayerColors",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "reloads the player colors from the XML file"
     },
     "setMinimapUnitFilter": {
@@ -3889,25 +3643,13 @@
     "cancelAutoPatcher": {
         "name": "cancelAutoPatcher",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Cancel the auto patcher."
     },
     "confirmAutoPatcher": {
         "name": "confirmAutoPatcher",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Used to tell autpatcher user pressed OK on exit or error dialog."
     },
     "playMovie": {
@@ -3926,25 +3668,13 @@
     "toggleHomeCityView": {
         "name": "toggleHomeCityView",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles home city view for the current player."
     },
     "toggleHomeCityViewTech": {
         "name": "toggleHomeCityViewTech",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles tech home city view for the current player."
     },
     "lookAtHomeCityBuilding": {
@@ -4020,37 +3750,19 @@
     "fourOfAKind": {
         "name": "fourOfAKind",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "starts the four of a kind victory if valid."
     },
     "relicCapture": {
         "name": "relicCapture",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "starts the Relic Capture victory if valid."
     },
     "kothVictory": {
         "name": "kothVictory",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "starts the King of the Hill victory if valid."
     },
     "tradeRouteCommand": {
@@ -4290,61 +4002,31 @@
     "convertCoveredWagon": {
         "name": "convertCoveredWagon",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Convert a covered wagon into a Town Center"
     },
     "breakTreaty": {
         "name": "breakTreaty",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "break your treaties"
     },
     "ransomExplorer": {
         "name": "ransomExplorer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "ransoms your explorer"
     },
     "toggleWorldTooltipClipRect": {
         "name": "toggleWorldTooltipClipRect",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles whether or not world tooltips are using the restricted screen rectangle."
     },
     "drawWorldTooltipClipRect": {
         "name": "drawWorldTooltipClipRect",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles whether or not to draw the world tooltip restricted screen rectangle."
     },
     "setWorldTooltipRectDims1024": {
@@ -4629,13 +4311,7 @@
     "renderForceReset": {
         "name": "renderForceReset",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "forces the renderer to reset."
     },
     "editorSetTechStatus": {
@@ -4660,13 +4336,7 @@
     "editorUpdateUnitVisuals": {
         "name": "editorUpdateUnitVisuals",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Editor only functions. goes thru all the units and updates thier visuals."
     },
     "editorSetAllTradeRoutesToDef": {
@@ -4824,13 +4494,7 @@
     "click": {
         "name": "click",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "plays the default UI click sound."
     },
     "homeCityResearch": {
@@ -4938,25 +4602,13 @@
     "uiBuildAtPointer": {
         "name": "uiBuildAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location."
     },
     "uiFormationOrientation": {
         "name": "uiFormationOrientation",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sets the orientation of a formation."
     },
     "uiBuildWallAtPointer": {
@@ -5007,25 +4659,13 @@
     "uiSetHomeCityWaterSpawnPointAtPointer": {
         "name": "uiSetHomeCityWaterSpawnPointAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sets the HC spawn point."
     },
     "uiClearGatherPoint": {
         "name": "uiClearGatherPoint",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Clears the gather point for the selected unit(s), returning it to a default state."
     },
     "uiTransformSelectedUnit": {
@@ -5044,73 +4684,37 @@
     "uiFlareAtPointer": {
         "name": "uiFlareAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sends out a flare at the pointer position."
     },
     "uiCommsFlareAtPointer": {
         "name": "uiCommsFlareAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Used when flaring a position for player comms dialog."
     },
     "uiHelpAtPointer": {
         "name": "uiHelpAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sends out a Help at the pointer position."
     },
     "uiGarrisonToPointer": {
         "name": "uiGarrisonToPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Commands the selected unit(s) to garrison in a building at the pointer position."
     },
     "uiRepairAtPointer": {
         "name": "uiRepairAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Commands the selected unit(s) to repair the target building at the pointer position."
     },
     "uiEmpowerAtPointer": {
         "name": "uiEmpowerAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Commands the selected unit(s) to Empower the target building at the pointer position."
     },
     "uiSetProtoCursor": {
@@ -5174,13 +4778,7 @@
     "uiClearCursor": {
         "name": "uiClearCursor",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "resets the cursor to the basic pointer."
     },
     "uiYawUnitRight": {
@@ -5355,37 +4953,19 @@
     "uiSelectWaterAtPointer": {
         "name": "uiSelectWaterAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Selects water at pointer location."
     },
     "uiUnSelectWater": {
         "name": "uiUnSelectWater",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Unselects currently selected water."
     },
     "uiPaintWaterObjects": {
         "name": "uiPaintWaterObjects",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Paint objects on the currently selected water."
     },
     "uiRotateWaterLeft": {
@@ -5417,25 +4997,13 @@
     "uiSelectionButtonDown": {
         "name": "uiSelectionButtonDown",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that selection button has been pressed."
     },
     "uiSelectionButtonUp": {
         "name": "uiSelectionButtonUp",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that selection button has been released."
     },
     "uiCreateNumberGroup": {
@@ -5493,13 +5061,7 @@
     "uiRemoveFromAnyNumberGroup": {
         "name": "uiRemoveFromAnyNumberGroup",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "removes current selection from any army."
     },
     "uiDoubleClickSelect": {
@@ -5524,37 +5086,19 @@
     "uiAddSelectionButtonDown": {
         "name": "uiAddSelectionButtonDown",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that the add selection button has been pressed."
     },
     "uiAddSelectionButtonUp": {
         "name": "uiAddSelectionButtonUp",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that the add selection button has been released."
     },
     "uiToggleSelectionButton": {
         "name": "uiToggleSelectionButton",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  "
     },
     "uiRotateSelection": {
@@ -5573,61 +5117,31 @@
     "uiMoveSelectionButtonDown": {
         "name": "uiMoveSelectionButtonDown",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that selection button has been pressed."
     },
     "uiMoveSelectionButtonUp": {
         "name": "uiMoveSelectionButtonUp",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that selection button has been released."
     },
     "uiMoveSelectionAddButtonDown": {
         "name": "uiMoveSelectionAddButtonDown",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that selection button has been pressed."
     },
     "uiMoveSelectionAddButtonUp": {
         "name": "uiMoveSelectionAddButtonUp",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Indicates that selection button has been released."
     },
     "uiWorkAtPointer": {
         "name": "uiWorkAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Issues \"work\" at pointer location."
     },
     "uiWheelRotate": {
@@ -5672,25 +5186,13 @@
     "uiSampleElevationAtPointer": {
         "name": "uiSampleElevationAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Samples elevation height at pointer."
     },
     "uiSampleCliffElevationAtPointer": {
         "name": "uiSampleCliffElevationAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Samples Cliff elevation height at pointer."
     },
     "uiPaintTerrainToSample": {
@@ -5709,49 +5211,25 @@
     "uiSampleTerrainAtPointer": {
         "name": "uiSampleTerrainAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Samples terrain type at pointer."
     },
     "uiDeleteSelectedUnit": {
         "name": "uiDeleteSelectedUnit",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "deletes selected unit."
     },
     "uiDeleteSelectedUnit2": {
         "name": "uiDeleteSelectedUnit2",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "deletes selected unit."
     },
     "uiDeleteAllSelectedUnits": {
         "name": "uiDeleteAllSelectedUnits",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "deletes all selected unit."
     },
     "uiRemoveSelectedUnit": {
@@ -5770,13 +5248,7 @@
     "uiStopSelectedUnits": {
         "name": "uiStopSelectedUnits",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "stop selected units."
     },
     "uiRaiseElevation": {
@@ -5925,25 +5397,13 @@
     "uiFlattenTerrainSelection": {
         "name": "uiFlattenTerrainSelection",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "flatten the current terrain selection."
     },
     "uiFilterTerrainSelection": {
         "name": "uiFilterTerrainSelection",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "filter the current terrain selection."
     },
     "uiOpenScenarioBrowser": {
@@ -6001,85 +5461,43 @@
     "uiScenarioLoad": {
         "name": "uiScenarioLoad",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "load a scenario, checking dirty bit on world."
     },
     "uiStartScenarioTest": {
         "name": "uiStartScenarioTest",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "test a scenario."
     },
     "uiStopScenarioTest": {
         "name": "uiStopScenarioTest",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "test a scenario."
     },
     "uiStartBuildCinematic": {
         "name": "uiStartBuildCinematic",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "test a scenario."
     },
     "uiStopBuildCinematic": {
         "name": "uiStopBuildCinematic",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "test a scenario."
     },
     "uiClearCinematicInfo": {
         "name": "uiClearCinematicInfo",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "clears cinematic trigger info."
     },
     "uiClearAllCinematicInfo": {
         "name": "uiClearAllCinematicInfo",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "clears all cinematic info including model/texture precache info."
     },
     "uiOpenCameraTrackBrowser": {
@@ -6163,13 +5581,7 @@
     "uiLookAtSelection": {
         "name": "uiLookAtSelection",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "moves the camera to see the first selected unit."
     },
     "uiLookAtUnit": {
@@ -6356,13 +5768,7 @@
     "uiIncPlaceVariation": {
         "name": "uiIncPlaceVariation",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "increments the variation to place."
     },
     "uiBuildMode": {
@@ -6394,13 +5800,7 @@
     "uiFindAllOfSelectedType": {
         "name": "uiFindAllOfSelectedType",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "finds all units of the same type as the selected unit"
     },
     "uiFindAllOfType": {
@@ -6484,25 +5884,13 @@
     "uiCloseFieldSet": {
         "name": "uiCloseFieldSet",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "closes (as if clicked on the close button) any active field set"
     },
     "uiCloseDialog": {
         "name": "uiCloseDialog",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "closes (as if clicked on the close button) any active dialog"
     },
     "uiMessageBox": {
@@ -6546,25 +5934,13 @@
     "uiCopyToClipboard": {
         "name": "uiCopyToClipboard",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "copies the brush selection to the clipboard."
     },
     "uiPasteFromClipboard": {
         "name": "uiPasteFromClipboard",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "pastes the contents of the clipboard to the brush selection."
     },
     "uiSetClipboardRotation": {
@@ -6596,37 +5972,19 @@
     "uiEjectGarrisonedUnits": {
         "name": "uiEjectGarrisonedUnits",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for UI use only.  Sends an ejection command for the selected unit."
     },
     "uiEjectAtPointer": {
         "name": "uiEjectAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for UI use only.  Sends an ejection command with waypoint for the selected unit."
     },
     "uiPatrolAtPointer": {
         "name": "uiPatrolAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for UI use only.  Sends an patrol order."
     },
     "uiApplyLightingSet": {
@@ -6778,25 +6136,13 @@
     "uiIgnoreNextKey": {
         "name": "uiIgnoreNextKey",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "used when activating a text box with a key to avoid having that key go into the text box too."
     },
     "uiCycleCurrentActivate": {
         "name": "uiCycleCurrentActivate",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "acts like the current cycle gadget has been pressed"
     },
     "uiClearMenu": {
@@ -6815,13 +6161,7 @@
     "uiClearSelection": {
         "name": "uiClearSelection",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "deselects all selected units"
     },
     "uiDumpKeyMappings": {
@@ -7001,61 +6341,31 @@
     "uiSelectForestAtPointer": {
         "name": "uiSelectForestAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "selects the forest under the pointer."
     },
     "uiUnselectForest": {
         "name": "uiUnselectForest",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "de-selects the forest under the pointer."
     },
     "uiSelectCliffAtPointer": {
         "name": "uiSelectCliffAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "selects the cliff under the pointer."
     },
     "uiUnselectCliff": {
         "name": "uiUnselectCliff",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "de-selects the forest under the pointer."
     },
     "uiToggleCliff": {
         "name": "uiToggleCliff",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles cliff pieces on or off under the pointer."
     },
     "gadgetScrollUp": {
@@ -7463,13 +6773,7 @@
     "uiLeaveModeOnUnshift": {
         "name": "uiLeaveModeOnUnshift",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "causes game to return to editMode none when shift hotkey is released"
     },
     "uiToggleBrushMask": {
@@ -7565,121 +6869,61 @@
     "uiLastDetailHelp": {
         "name": "uiLastDetailHelp",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "goes back to the most recent help entry."
     },
     "AIDebugInfoRefresh": {
         "name": "AIDebugInfoRefresh",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "shows the ai debug menu with new data."
     },
     "AIDebugInfoToggle": {
         "name": "AIDebugInfoToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles whether the ai debug menu is up, refreshing if first showing."
     },
     "AIDebugOutputToggle": {
         "name": "AIDebugOutputToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles whether the ai output window is up, refreshing if first showing."
     },
     "AIDebugGathererToggle": {
         "name": "AIDebugGathererToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles whether the ai gatherer distribution window is up, refreshing if first showing."
     },
     "AIDebugPopToggle": {
         "name": "AIDebugPopToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles whether the ai pop distribution window is up, refreshing if first showing."
     },
     "AIDebugPastResourceNeedToggle": {
         "name": "AIDebugPastResourceNeedToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles whether the ai past resource needs window is up, refreshing if first showing."
     },
     "AIDebugTimedStatsToggle": {
         "name": "AIDebugTimedStatsToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles whether the kb timed stats window is up, refreshing if first showing."
     },
     "AIDebugShowBasesToggle": {
         "name": "AIDebugShowBasesToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles the display of bases"
     },
     "AIDebugToggleBPText": {
         "name": "AIDebugToggleBPText",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "toggles the showing of Building placement value text."
     },
     "uiShowAIDebugInfoPlan": {
@@ -7949,37 +7193,19 @@
     "uiChatDisplayModeToggle": {
         "name": "uiChatDisplayModeToggle",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles the chat display mode."
     },
     "uiChatDisplayModeToRecent": {
         "name": "uiChatDisplayModeToRecent",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles the chat display mode to recent mode."
     },
     "uiChatDisplayModeToHistory": {
         "name": "uiChatDisplayModeToHistory",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Toggles the chat display mode to history mode."
     },
     "uiClearChat": {
@@ -8048,37 +7274,19 @@
     "uiReleaseDownKeys": {
         "name": "uiReleaseDownKeys",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "pops up all downed keys."
     },
     "uiSpewDownKeys": {
         "name": "uiSpewDownKeys",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "spews all down keys."
     },
     "uiSendIngameChat": {
         "name": "uiSendIngameChat",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "used direcly by UI"
     },
     "uiPoliticianUI": {
@@ -8141,13 +7349,7 @@
     "uiConsulateUIInSelected": {
         "name": "uiConsulateUIInSelected",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Used to activate the consulate UI from hotkeys"
     },
     "uiExpireCurrentObjectiveNotification": {
@@ -8179,49 +7381,25 @@
     "uiFindGatherersNotGathering": {
         "name": "uiFindGatherersNotGathering",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "finds the gatherer unit that's not gathering in the arbitrary order of unit ID, so that it can be called repeatedly to cycle."
     },
     "uiFindDancers": {
         "name": "uiFindDancers",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "finds the next native settler dancing at the firepit in the arbitrary order of unit ID, so that it can be called repeatedly to cycle."
     },
     "uiSelectFirepit": {
         "name": "uiSelectFirepit",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "selects the users firepit if it exists"
     },
     "uiFindAlliedNatives": {
         "name": "uiFindAlliedNatives",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "finds allied natives of the current player in order, so that it can be called repeatedly to cycle."
     },
     "uiVPAccelClick": {
@@ -8366,13 +7544,7 @@
     "uiCenterPointer": {
         "name": "uiCenterPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Centers mouse pointer."
     },
     "uiForceShift": {
@@ -8404,25 +7576,13 @@
     "uiResetScreenSelect": {
         "name": "uiResetScreenSelect",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "resets screen selection."
     },
     "uiMoveAllMilitaryAtPointer": {
         "name": "uiMoveAllMilitaryAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Moves all military units to the pointer position."
     },
     "sendAttackSentence": {
@@ -8658,13 +7818,7 @@
     "restartCurrentGame": {
         "name": "restartCurrentGame",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "restarts current game."
     },
     "leaveGame": {
@@ -8689,37 +7843,19 @@
     "handlePostGame": {
         "name": "handlePostGame",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "does what needs to be done."
     },
     "showGameFromPostGame": {
         "name": "showGameFromPostGame",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "does what needs to be done."
     },
     "postGamePlayAgain": {
         "name": "postGamePlayAgain",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "does what needs to be done."
     },
     "minimapZoomDelta": {
@@ -8783,109 +7919,55 @@
     "uiSpecialPowerAtPointer": {
         "name": "uiSpecialPowerAtPointer",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "intended for ui use only.  Use a special power at targeted location."
     },
     "uiToggleGame": {
         "name": "uiToggleGame",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "turns off and on the game UI."
     },
     "uiZoomToMinimapEvent": {
         "name": "uiZoomToMinimapEvent",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "zooms to the most recent minimap event"
     },
     "uiRefreshEditorMenu": {
         "name": "uiRefreshEditorMenu",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "reconstitutes the entire editor menu"
     },
     "uiShowTributeDialog": {
         "name": "uiShowTributeDialog",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "minimizes main UI and brings up the minimized UI"
     },
     "uiHideTributeDialog": {
         "name": "uiHideTributeDialog",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "maximizes main UI"
     },
     "uiShowPlayerSummaryDialog": {
         "name": "uiShowPlayerSummaryDialog",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Shows the player summary dialog."
     },
     "uiHidePlayerSummaryDialog": {
         "name": "uiHidePlayerSummaryDialog",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Hides the player summary dialog."
     },
     "uiNewScenario": {
         "name": "uiNewScenario",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "creates a new blank scenario"
     },
     "sunIncreaseInclination": {
@@ -8968,61 +8050,31 @@
     "abortCinematic": {
         "name": "abortCinematic",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "abort the current cinematic."
     },
     "scoreUpdate": {
         "name": "scoreUpdate",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "causes score to update even if it isn't supposed to yet, time wise"
     },
     "toggleScore": {
         "name": "toggleScore",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "handles the score toggling"
     },
     "toggleTime": {
         "name": "toggleTime",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "handles the time display toggling"
     },
     "toggleDebugTime": {
         "name": "toggleDebugTime",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "handles the time display toggling"
     },
     "doSPSetup": {
@@ -9054,13 +8106,7 @@
     "exitMPSetupSubScreen": {
         "name": "exitMPSetupSubScreen",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Leave the current MP screen and return to the MP setup menu."
     },
     "enterRecordGameMode": {
@@ -9111,25 +8157,13 @@
     "playerResign": {
         "name": "playerResign",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "resigns the currently controlled player."
     },
     "showGameMenu": {
         "name": "showGameMenu",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "show the in-game menu."
     },
     "hideGameMenu": {
@@ -9148,49 +8182,25 @@
     "uiSaveCampaignGameBrowser": {
         "name": "uiSaveCampaignGameBrowser",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "show the in-game menu."
     },
     "uiInitOptionsScreenProfileEditDialog": {
         "name": "uiInitOptionsScreenProfileEditDialog",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "initializes the Profile Edit Dialog inside the OptionsScreen"
     },
     "uiBMultiplayerSave": {
         "name": "uiBMultiplayerSave",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "stop playing stupid music at 11pm."
     },
     "dropToMainMenu": {
         "name": "dropToMainMenu",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "drop back to the main menu"
     },
     "changeCliffType": {
@@ -9254,13 +8264,7 @@
     "winScenario": {
         "name": "winScenario",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "executes the trYouWin trigger func, allowing you to win the scenario."
     },
     "rmEchoWarning": {
@@ -9330,49 +8334,25 @@
     "rmGetNomadStart": {
         "name": "rmGetNomadStart",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if this map is to place a covered wagon instead of a town center."
     },
     "rmGetIsFFA": {
         "name": "rmGetIsFFA",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if this map is set to be a FFA game which means each player on their own team."
     },
     "rmGetIsRelicCapture": {
         "name": "rmGetIsRelicCapture",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if this map is set to be a relic game.."
     },
     "rmGetIsKOTH": {
         "name": "rmGetIsKOTH",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if this map is set to be a King of the Hill game."
     },
     "rmSetMapSize": {
@@ -9397,25 +8377,13 @@
     "rmGetMapXSize": {
         "name": "rmGetMapXSize",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the X size of the map."
     },
     "rmGetMapZSize": {
         "name": "rmGetMapZSize",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the Z size of the map."
     },
     "rmSetSeaLevel": {
@@ -9434,13 +8402,7 @@
     "rmGetSeaLevel": {
         "name": "rmGetSeaLevel",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Gets the sea level for the map."
     },
     "rmSetSeaType": {
@@ -9979,13 +8941,7 @@
     "rmBuildAllAreas": {
         "name": "rmBuildAllAreas",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Simulatenously builds all unbuilt areas."
     },
     "rmSetAreaTerrainType": {
@@ -11110,13 +10066,7 @@
     "rmFillMapCorners": {
         "name": "rmFillMapCorners",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Fill map corners with blackmap."
     },
     "rmDoLightingFade": {
@@ -11648,13 +10598,7 @@
     "rmResetFairLocs": {
         "name": "rmResetFairLocs",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Resets fairLoc placment info."
     },
     "rmGetNumberFairLocs": {
@@ -13715,13 +12659,7 @@
     "rmCreateTradeRoute": {
         "name": "rmCreateTradeRoute",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Creates a trade route."
     },
     "rmAddTradeRouteWaypoint": {
@@ -13940,37 +12878,19 @@
     "rmGetLowHomeCityLevel": {
         "name": "rmGetLowHomeCityLevel",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the lowest HC Level of the players in the game."
     },
     "rmGetAverageHomeCityLevel": {
         "name": "rmGetAverageHomeCityLevel",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the average (rounded down) HC Level of the players in the game."
     },
     "rmGetHighHomeCityLevel": {
         "name": "rmGetHighHomeCityLevel",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the highest HC Level of the players in the game."
     },
     "rmGetHomeCityLevel": {
@@ -14041,13 +12961,7 @@
     "rmClearClosestPointConstraints": {
         "name": "rmClearClosestPointConstraints",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Clears constraints for closest point finder."
     },
     "rmFindClosestPoint": {
@@ -14285,13 +13199,7 @@
     "hcGetMyUnitID": {
         "name": "hcGetMyUnitID",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the HomeCity Unit ID for this unit."
     },
     "hcUnitGetGroupID": {
@@ -14605,13 +13513,7 @@
     "hcPopulateHomeCity": {
         "name": "hcPopulateHomeCity",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Populates the home city with all units needed."
     },
     "hcUnitGetInitialPauseTime": {
@@ -14712,13 +13614,7 @@
     "hcGetNumPerformerGroups": {
         "name": "hcGetNumPerformerGroups",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns how many performer groups are currently playing."
     },
     "hcAddUnitToPerformerGroup": {
@@ -14762,13 +13658,7 @@
     "hcUnitDestroyAll": {
         "name": "hcUnitDestroyAll",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Nukes all HC units."
     },
     "hcUnitPlayAnim": {
@@ -15179,13 +14069,7 @@
     "hcGetNumberWaypoints": {
         "name": "hcGetNumberWaypoints",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of waypoints."
     },
     "hcGetWaypointPos": {
@@ -15390,37 +14274,19 @@
     "aiGetPersonality": {
         "name": "aiGetPersonality",
         "return_type": "string",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Gets the player's personality."
     },
     "aiPersonalityGetRushBoom": {
         "name": "aiPersonalityGetRushBoom",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the rush boom scale for this ai."
     },
     "aiPersonalityGetNumberPlayerHistories": {
         "name": "aiPersonalityGetNumberPlayerHistories",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of player's in the Personality's history."
     },
     "aiPersonalityCreatePlayerHistory": {
@@ -15629,13 +14495,7 @@
     "aiGetMostHatedPlayerID": {
         "name": "aiGetMostHatedPlayerID",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the script-defined most hated player ID for this player."
     },
     "aiCalculateMostHatedPlayerID": {
@@ -15667,37 +14527,19 @@
     "aiGetAvailableEconomyPop": {
         "name": "aiGetAvailableEconomyPop",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the available economy pop for this player."
     },
     "aiGetCurrentEconomyPop": {
         "name": "aiGetCurrentEconomyPop",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the current economy pop for this player."
     },
     "aiGetEconomyPop": {
         "name": "aiGetEconomyPop",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the script-defined economy pop for this player."
     },
     "aiSetEconomyPop": {
@@ -15716,25 +14558,13 @@
     "aiGetAvailableMilitaryPop": {
         "name": "aiGetAvailableMilitaryPop",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the script-defined military pop for this player."
     },
     "aiGetMilitaryPop": {
         "name": "aiGetMilitaryPop",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the script-defined military pop for this player."
     },
     "aiSetMilitaryPop": {
@@ -15753,13 +14583,7 @@
     "aiGetEconomyPercentage": {
         "name": "aiGetEconomyPercentage",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the economy priority percentage."
     },
     "aiSetEconomyPercentage": {
@@ -15778,13 +14602,7 @@
     "aiGetMilitaryPercentage": {
         "name": "aiGetMilitaryPercentage",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the militarypriority percentage."
     },
     "aiSetMilitaryPercentage": {
@@ -15803,13 +14621,7 @@
     "aiGetAttackResponseDistance": {
         "name": "aiGetAttackResponseDistance",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the attack response distance."
     },
     "aiSetAttackResponseDistance": {
@@ -17999,13 +16811,7 @@
     "aiNormalizeResourceGathererPercentageWeights": {
         "name": "aiNormalizeResourceGathererPercentageWeights",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Normalizes all of the resource gatherer percentages weights to 1.0."
     },
     "aiGetResourceGathererPercentage": {
@@ -18217,13 +17023,7 @@
     "aiGetAutoGatherEscrowID": {
         "name": "aiGetAutoGatherEscrowID",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the auto gather escrow ID."
     },
     "aiSetAutoGatherEscrowID": {
@@ -18242,13 +17042,7 @@
     "aiGetAutoFarmEscrowID": {
         "name": "aiGetAutoFarmEscrowID",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the auto Farm escrow ID."
     },
     "aiSetAutoFarmEscrowID": {
@@ -18267,13 +17061,7 @@
     "aiGetFarmLimit": {
         "name": "aiGetFarmLimit",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the per plan farm build limit."
     },
     "aiSetFarmLimit": {
@@ -18292,13 +17080,7 @@
     "aiGetAllowBuildings": {
         "name": "aiGetAllowBuildings",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns allow buildings on/off."
     },
     "aiSetAllowBuildings": {
@@ -18431,13 +17213,7 @@
     "aiFindBestOpportunity": {
         "name": "aiFindBestOpportunity",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "finds the best currently scored opp."
     },
     "aiGetOpportunitySourceID": {
@@ -18724,37 +17500,19 @@
     "aiFindBestAttackGodPowerPlan": {
         "name": "aiFindBestAttackGodPowerPlan",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "find a valid god power plan to attach to an attack plan"
     },
     "aiFindBestTownDefenseGodPowerPlan": {
         "name": "aiFindBestTownDefenseGodPowerPlan",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "find a valid god power plan to use for town defense"
     },
     "aiGetWorldDifficulty": {
         "name": "aiGetWorldDifficulty",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the world difficulty level."
     },
     "aiSetWorldDifficulty": {
@@ -18786,13 +17544,7 @@
     "aiGetGameMode": {
         "name": "aiGetGameMode",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the game's mode."
     },
     "aiGetCaptainPlayerID": {
@@ -18811,13 +17563,7 @@
     "aiGetAutosaveOn": {
         "name": "aiGetAutosaveOn",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns whether or not its cool to turn ai autosaves on."
     },
     "aiGetCurrentResourceNeed": {
@@ -18862,13 +17608,7 @@
     "aiGetExploreDangerThreshold": {
         "name": "aiGetExploreDangerThreshold",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "gets the ai's Explore Danger Threshold value."
     },
     "aiSetRandomMap": {
@@ -18939,13 +17679,7 @@
     "aiGetMinNumberNeedForGatheringAggressives": {
         "name": "aiGetMinNumberNeedForGatheringAggressives",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "gets the min number of needed units to gather aggressive animals."
     },
     "aiSetMinNumberWantForGatheringAggressives": {
@@ -18964,25 +17698,13 @@
     "aiGetMinNumberWantForGatheringAggressives": {
         "name": "aiGetMinNumberWantForGatheringAggressives",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "gets the min number of wanted units to gather aggressive animals."
     },
     "aiResign": {
         "name": "aiResign",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "reigns the current player.."
     },
     "aiAttemptResign": {
@@ -19014,25 +17736,13 @@
     "aiGetMaxLOSProtoUnitLimit": {
         "name": "aiGetMaxLOSProtoUnitLimit",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "gets the limit for how many LOS Protounits the AI can build"
     },
     "aiGetPopNeeds": {
         "name": "aiGetPopNeeds",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "gets the current Pop needs of all the plans."
     },
     "aiSwitchMainBase": {
@@ -19083,13 +17793,7 @@
     "aiGetWaterMap": {
         "name": "aiGetWaterMap",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Tells us if the AI thinks this is a water map or not."
     },
     "aiIsMapType": {
@@ -19108,13 +17812,7 @@
     "aiHCCardsGetTotal": {
         "name": "aiHCCardsGetTotal",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of cards in the Current HC."
     },
     "aiHCCardsIsCardBought": {
@@ -19268,13 +17966,7 @@
     "aiHCGetNumberDecks": {
         "name": "aiHCGetNumberDecks",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of decks in the Current HC."
     },
     "aiHCDeckCreate": {
@@ -19484,13 +18176,7 @@
     "aiSetHCGatherPoint": {
         "name": "aiSetHCGatherPoint",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sets the HCGP."
     },
     "aiGetScore": {
@@ -19509,13 +18195,7 @@
     "aiGetNumberTeams": {
         "name": "aiGetNumberTeams",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the number of teams in the game."
     },
     "aiQueueAutoSavegame": {
@@ -19534,25 +18214,13 @@
     "aiIsMultiplayer": {
         "name": "aiIsMultiplayer",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns true, if this is a multiplayer game."
     },
     "aiGetFallenExplorerID": {
         "name": "aiGetFallenExplorerID",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the ID of the fallen explorer; if there isn't one, returns -1"
     },
     "aiRansomExplorer": {
@@ -19647,13 +18315,7 @@
     "aiGetGameType": {
         "name": "aiGetGameType",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the current game type (e.g., cGameTypeScenario, cGameTypeRandom, etc)."
     },
     "aiUnitSetTactic": {
@@ -19743,13 +18405,7 @@
     "aiTreatyActive": {
         "name": "aiTreatyActive",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "checks whether the given player has a treaty."
     },
     "aiSetPoliticianChoice": {
@@ -19787,13 +18443,7 @@
     "aiPopulatePoliticianList": {
         "name": "aiPopulatePoliticianList",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Call this to make the AI fill out what Politicians are available."
     },
     "aiGetPoliticianListCount": {
@@ -19870,49 +18520,25 @@
     "aiGetNumberTradePostsNeededForMonopoly": {
         "name": "aiGetNumberTradePostsNeededForMonopoly",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Gets the number of tradeposts needed to make a monopoly win possible."
     },
     "aiReadyForTradeMonopoly": {
         "name": "aiReadyForTradeMonopoly",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if the monopoly command can be given now.  Does not check cost."
     },
     "aiDoTradeMonopoly": {
         "name": "aiDoTradeMonopoly",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Executes a trade monopoly command, returns false if it fails."
     },
     "aiIsMonopolyAllowed": {
         "name": "aiIsMonopolyAllowed",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if a trade monopoly is possible in this game type."
     },
     "aiGetNumberRelicsControlled": {
@@ -19931,49 +18557,25 @@
     "aiGetNumberRelicsNeededForVictory": {
         "name": "aiGetNumberRelicsNeededForVictory",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Gets the number of relics needed to make a relic win possible."
     },
     "aiIsRelicCaptureAllowed": {
         "name": "aiIsRelicCaptureAllowed",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if a relic capture victory is possible in this game type."
     },
     "aiIsKOTHAllowed": {
         "name": "aiIsKOTHAllowed",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if a King of the Hill victory is possible in this game type."
     },
     "aiGetKOTHController": {
         "name": "aiGetKOTHController",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Gets the team that is king of the hill."
     },
     "aiIsTeamKOTH": {
@@ -20036,49 +18638,25 @@
     "kbLookAtAllUnitsOnMap": {
         "name": "kbLookAtAllUnitsOnMap",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Cheats and looks at all of the units on the map.  This will format your harddrive if you're not authorized to use it."
     },
     "kbGetPop": {
         "name": "kbGetPop",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the current population for the player."
     },
     "kbGetPopCap": {
         "name": "kbGetPopCap",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the current population cap for the player."
     },
     "kbGetAge": {
         "name": "kbGetAge",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the current age for the current player."
     },
     "kbGetAgeForPlayer": {
@@ -20097,13 +18675,7 @@
     "kbGetCulture": {
         "name": "kbGetCulture",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the culture for the player."
     },
     "kbGetCultureForPlayer": {
@@ -20135,13 +18707,7 @@
     "kbGetCiv": {
         "name": "kbGetCiv",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the civilization for the player."
     },
     "kbGetCivName": {
@@ -20989,25 +19555,13 @@
     "kbGetMapXSize": {
         "name": "kbGetMapXSize",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the X size of the map."
     },
     "kbGetMapZSize": {
         "name": "kbGetMapZSize",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the Z size of the map."
     },
     "kbAreaCalculate": {
@@ -21056,13 +19610,7 @@
     "kbAreaGetNumber": {
         "name": "kbAreaGetNumber",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of areas."
     },
     "kbAreaGetIDByPosition": {
@@ -21300,13 +19848,7 @@
     "kbDumpVPSiteInfo": {
         "name": "kbDumpVPSiteInfo",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "blogs out info about all VP sites."
     },
     "kbVPSiteGetType": {
@@ -21434,13 +19976,7 @@
     "kbPathGetNumber": {
         "name": "kbPathGetNumber",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of paths."
     },
     "kbPathGetIDByIndex": {
@@ -21725,13 +20261,7 @@
     "kbMakeAttackRoutes": {
         "name": "kbMakeAttackRoutes",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "find all the paths to the sector specified."
     },
     "kbGetNumAttackRoutes": {
@@ -21951,13 +20481,7 @@
     "kbEscrowAllocateCurrentResources": {
         "name": "kbEscrowAllocateCurrentResources",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Reallocates the current resource stockpile into the escrows."
     },
     "kbBuildingPlacementCreate": {
@@ -21989,13 +20513,7 @@
     "kbBuildingPlacementResetResults": {
         "name": "kbBuildingPlacementResetResults",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Resets the current building placement."
     },
     "kbBuildingPlacementSelect": {
@@ -22197,13 +20715,7 @@
     "kbBuildingPlacementStart": {
         "name": "kbBuildingPlacementStart",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Starts the placement of current building."
     },
     "kbBuildingPlacementGetResultPosition": {
@@ -22261,13 +20773,7 @@
     "kbTargetSelectorResetResults": {
         "name": "kbTargetSelectorResetResults",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Resets the current target selector."
     },
     "kbTargetSelectorSelect": {
@@ -22312,13 +20818,7 @@
     "kbTargetSelectorGetNumberResults": {
         "name": "kbTargetSelectorGetNumberResults",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of results in the given target selector."
     },
     "kbTargetSelectorGetResultValue": {
@@ -22337,13 +20837,7 @@
     "kbTargetSelectorStart": {
         "name": "kbTargetSelectorStart",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Starts the current target selector."
     },
     "kbSetupForResource": {
@@ -22910,13 +21404,7 @@
     "kbGetNumberMutualAllies": {
         "name": "kbGetNumberMutualAllies",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the number of mutual allies."
     },
     "kbIsPlayerValid": {
@@ -22980,13 +21468,7 @@
     "kbIsGameOver": {
         "name": "kbIsGameOver",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns whether the game is over or not."
     },
     "kbGetTownLocation": {
@@ -22998,13 +21480,7 @@
     "kbGetTownAreaID": {
         "name": "kbGetTownAreaID",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the area ID of the main town."
     },
     "kbSetTownLocation": {
@@ -23023,13 +21499,7 @@
     "kbGetAutoBaseCreate": {
         "name": "kbGetAutoBaseCreate",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the auto base creation value."
     },
     "kbSetAutoBaseCreate": {
@@ -23048,13 +21518,7 @@
     "kbGetAutoBaseCreateDistance": {
         "name": "kbGetAutoBaseCreateDistance",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the auto base creation distance."
     },
     "kbSetAutoBaseCreateDistance": {
@@ -23073,13 +21537,7 @@
     "kbGetAutoBaseDetect": {
         "name": "kbGetAutoBaseDetect",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the auto base detection value."
     },
     "kbSetAutoBaseDetect": {
@@ -23098,13 +21556,7 @@
     "kbGetAutoBaseDetectDistance": {
         "name": "kbGetAutoBaseDetectDistance",
         "return_type": "float",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the auto base creation distance."
     },
     "kbSetAutoBaseDetectDistance": {
@@ -23142,13 +21594,7 @@
     "kbBaseGetNextID": {
         "name": "kbBaseGetNextID",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the ID of the next base that will be created."
     },
     "kbBaseGetNumber": {
@@ -24783,13 +23229,7 @@
     "kbTechTreeDump": {
         "name": "kbTechTreeDump",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Dumps the current state of the KBTT."
     },
     "kbProgressionGetTotalNodes": {
@@ -24878,37 +23318,19 @@
     "trTime": {
         "name": "trTime",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the current gametime in Seconds."
     },
     "trTimeMS": {
         "name": "trTimeMS",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns the current gametime in Milliseconds."
     },
     "trUnitSelectClear": {
         "name": "trUnitSelectClear",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Clears the units in the trigger selection system."
     },
     "trUnitSelect": {
@@ -25412,13 +23834,7 @@
     "trUnitCinematicRemoveControlAction": {
         "name": "trUnitCinematicRemoveControlAction",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Removes the current control action so the next thing can take effect immediately.  (For IGC)"
     },
     "trUnitSetAnimation": {
@@ -25461,25 +23877,13 @@
     "trUnitAlive": {
         "name": "trUnitAlive",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if all selected units are alive."
     },
     "trUnitDead": {
         "name": "trUnitDead",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Returns true if all selected units are dead."
     },
     "trUnitDelete": {
@@ -25498,13 +23902,7 @@
     "trUnitDestroy": {
         "name": "trUnitDestroy",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "destroys the selected unit(s)."
     },
     "trUnitCreate": {
@@ -25598,13 +23996,7 @@
     "trUnitVisToPlayer": {
         "name": "trUnitVisToPlayer",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns true if the player can see the selected unit, and it is on screen."
     },
     "trUnitHasLOS": {
@@ -25636,25 +24028,13 @@
     "trUnitPercentComplete": {
         "name": "trUnitPercentComplete",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the percent complete as 0 to 100"
     },
     "trUnitPercentDamaged": {
         "name": "trUnitPercentDamaged",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the percent damaged as 0 to 100"
     },
     "trUnitTeleport": {
@@ -25717,13 +24097,7 @@
     "trUnitGetContained": {
         "name": "trUnitGetContained",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the number of units contained."
     },
     "trUnitGetIsContained": {
@@ -25742,25 +24116,13 @@
     "trUnitEjectContained": {
         "name": "trUnitEjectContained",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "ejects all contained units."
     },
     "trUnitIsSelected": {
         "name": "trUnitIsSelected",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns if the specified unit is selected."
     },
     "trUnitTypeIsSelected": {
@@ -25836,13 +24198,7 @@
     "trWaypointClear": {
         "name": "trWaypointClear",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Clears the waypoints in the trigger selection system."
     },
     "trWaypointAddPoint": {
@@ -25874,13 +24230,7 @@
     "trCurrentPlayer": {
         "name": "trCurrentPlayer",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the current player."
     },
     "trSetCurrentPlayerStatus": {
@@ -26123,13 +24473,7 @@
     "trEndGame": {
         "name": "trEndGame",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Signal that the game has ended."
     },
     "trPlayerSetDiplomacy": {
@@ -26547,13 +24891,7 @@
     "trPlayNextMusicTrack": {
         "name": "trPlayNextMusicTrack",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Plays the next song in the music play list."
     },
     "trFadeOutAllSounds": {
@@ -26585,37 +24923,19 @@
     "trUnblockAllSounds": {
         "name": "trUnblockAllSounds",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Unblocks all sounds that were previously blocked from playing"
     },
     "trBlockAllAmbientSounds": {
         "name": "trBlockAllAmbientSounds",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "blocks all ambient sounds from this point forward"
     },
     "trUnBlockAllAmbientSounds": {
         "name": "trUnBlockAllAmbientSounds",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Unblocks all ambient sounds that were previously blocked from playing"
     },
     "trSoundPlayDialog": {
@@ -26720,25 +25040,13 @@
     "trMusicPlayCurrent": {
         "name": "trMusicPlayCurrent",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Plays the current music."
     },
     "trMusicStop": {
         "name": "trMusicStop",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Stops the current music."
     },
     "trMusicSetCurrentMusicSet": {
@@ -27196,13 +25504,7 @@
     "trStopGameRecord": {
         "name": "trStopGameRecord",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "add help string."
     },
     "trArmySelect": {
@@ -27481,25 +25783,13 @@
     "trCinematicAbort": {
         "name": "trCinematicAbort",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the abort cinematic status."
     },
     "trCinematicDoAbort": {
         "name": "trCinematicDoAbort",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "aborts the cinematic."
     },
     "trForceNonCinematicModels": {
@@ -27739,13 +26029,7 @@
     "trRatesNormal": {
         "name": "trRatesNormal",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "restore all rates to normal."
     },
     "trMinimapFlare": {
@@ -27814,13 +26098,7 @@
     "trPlayerResetBlackMapForAllPlayers": {
         "name": "trPlayerResetBlackMapForAllPlayers",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Resets the black map for all HUMAN players."
     },
     "trPlayerKillAllUnits": {
@@ -27935,13 +26213,7 @@
     "trUnitPlayerDefakify": {
         "name": "trUnitPlayerDefakify",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "Sets the selected unit as not having a fake player"
     },
     "trArmyPlayerDefakify": {
@@ -28036,25 +26308,13 @@
     "trIsMovieNotPlaying": {
         "name": "trIsMovieNotPlaying",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns false if a movie is currently playing"
     },
     "trRevealEntireMap": {
         "name": "trRevealEntireMap",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "shows whole map, similar to how revealed mode works"
     },
     "trUnitChangeName": {
@@ -28092,13 +26352,7 @@
     "trChatHistoryClear": {
         "name": "trChatHistoryClear",
         "return_type": "void",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "forces the chat history to reset"
     },
     "trGetStatValue": {
@@ -28469,25 +26723,13 @@
     "vcGetGameplayMode": {
         "name": "vcGetGameplayMode",
         "return_type": "int",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "returns the current gameplay mode index"
     },
     "vcCheckConquestVictory": {
         "name": "vcCheckConquestVictory",
         "return_type": "bool",
-        "params": [
-            {
-                "type": "",
-                "required": true,
-                "desc": "No description yet."
-            }
-        ],
+        "params": [],
         "desc": "checks for victory by being the last allied-unit alive"
     },
     "trUnitFaceUnit": {
